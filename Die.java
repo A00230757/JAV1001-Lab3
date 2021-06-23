@@ -91,5 +91,13 @@ System.out.println("YAY! It's a "+numberOfSides);}}
 return currentSideUp;
 }//display end
 
+ 
+ public void changeNumberOfSides(int numberOfSides){// to change number of sides
+this.numberOfSides = numberOfSides;
+}
+
+public  void changeDiceType(String diceType){ // to change dice type
+this.diceType = diceType;
+}
 
 }//class ends
